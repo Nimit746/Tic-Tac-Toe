@@ -37,26 +37,6 @@ public:
             }
         } while (a == 1);
     }
-
-    // int winner(){
-    //     if(board[0] == board[1] == board[2] == 'x') return 1;
-    //     if(board[3] == board[4] == board[5] == 'x') return 1;
-    //     if(board[6] == board[7] == board[8] == 'x') return 1;
-    //     if(board[0] == board[3] == board[6] == 'x') return 1;
-    //     if(board[1] == board[4] == board[7] == 'x') return 1;
-    //     if(board[2] == board[5] == board[8] == 'x') return 1;
-    //     if(board[2] == board[4] == board[6] == 'x') return 1;
-    //     if(board[0] == board[4] == board[8] == 'x') return 1;
-    //     // if(board[0] == board[1] == board[2] == 'o') return 2;
-    //     // if(board[3] == board[4] == board[5] == 'o') return 2;
-    //     // if(board[6] == board[7] == board[8] == 'o') return 2;
-    //     // if(board[0] == board[3] == board[6] == 'o') return 2;
-    //     // if(board[1] == board[4] == board[7] == 'o') return 2;
-    //     // if(board[2] == board[5] == board[8] == 'o') return 2;
-    //     // if(board[2] == board[4] == board[6] == 'o') return 2;
-    //     // if(board[0] == board[4] == board[8] == 'o') return 2;
-    // }
-
     int winner()
     {
         // Check rows for a win
